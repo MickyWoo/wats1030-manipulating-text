@@ -69,7 +69,7 @@ Escape + r  == Find and Replace
 
 Ctrl + w = Search   
 
-Ctrl + o = Save or append 
+Ctrl + o = Save AS or append 
 Ctrl + t = files category 
 ---------------------------
 
@@ -115,6 +115,68 @@ install it just like the other packages. Check for it by trying to run it:
 If `vi` does not work, then install it:
 
 `apt-get install vi`
+
+------------------------------------------------------------------------
+shortcuts 
+
+shift + zz =write + exits file 
+:wq then enter  = write + exit file
+:q! OR :q then enter =  exits file 
+
+COMMAND MODE 
+k = move up 
+j = move down 
+l = move right 
+h = move left
+
+space bar = move right 
+backspace = right 
+- = start of line 
+
+[Number + movement ]
+Ex:  10 + l = move right by 10
+
+
+i = Inster MODE
+escape = leave insert mode 
+
+-------------------------------------------------
+moving by words / sentences / paragraphs 
+
+w = forward a word 
+b = backward a word 
+e = forward to end of current word 
+( = back a sentence 
+) = forward a sentence 
+} = forward a paragraph 
+{ = backward a paragraph 
+
+-------------------------------------------------
+moving by lines 
+
+^ = beginning of line
+$ = end of line 
+1G = first line of file  ( 1 + Shift + g )
+     #G any line you choose 
+G = lst line of fie  ( Shfit + g )
+
+
+
+
+PROMPT MODE 
+escape twice terminates command 
+:w = write without quitting  ( save as of DIFF FILE NAME )
+:vi = edit another file 
+:n = go to next file 
+:n! force into next file without saving 
+
+:N = go to previous file 
+:r = read file into the THIS ONE
+ctrl + g = line # and file #
+
+
+
+
 
 ## Basic Requirements
 Once you have all of your editors available on your Droplet, you can begin
@@ -166,7 +228,7 @@ ServerName www.unix.org
 times does the word "Vishta" show up in the short story? How many times does the
 word "Kuno" show up in the short story? Add your word frequency counts to the `wordFrequency.json`
 in each of the working directories. (Be sure to count the unique `the_machine_stops.txt` file in 
-EACH directory -- they are not the same!)
+EACH directory -- they are not the same!) 2 , 
 
 * Create a file in the root of this repository (the same level as this `README.md` file) called 
 `favorite.md` and write a statement about which editor you prefer. Be sure to discuss what you like

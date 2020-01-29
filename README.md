@@ -26,6 +26,65 @@ If `nano` is not there, you can install it by running:
 
 `apt-get install nano`
 
+--useful tips on nana for me
+to open a new item or create a new writing type - " nano + path and file name you want to create and edit"
+
+-sudo ( gives you permission to Write on the file )
+--sudo !! copies prevoius input so as shortcut for previous path and give you permission 
+
+- nano my-file -- creates new blank file 
+
+-- Helpful shortcuts working on *** command LINE **
+
+ the Meta key, displayed as M; or the Escape (Esc) key.
+
+ 
+Ctrl + a ( beginning on line )  OR Ctrl + e ( End of line )
+escape + space bar ( moves BACK by word)
+Ctrl + space bar   ( moves FORWARD by word )
+escape + shift + m = mouse enable 
+escape + i = ( auto indentation ) 
+ 
+ctrl + shift + underscore (-) = ( jump to line ) 
+--OR ctrl + /
+if you enter : 2, 10   = ( line 2, columen 10)
+
+Ctrl + m + c =  current line & column position 
+
+
+Ctrl + home = top of file
+Ctrl + end = bottom of file 
+
+Ctrl + k =  Cut 
+Ctrl + u = paste 
+
+--Ctrl + 6 = copy ( Mark Set)
+then highlight what you want to copy 
+then escape + 6 == to COPY
+
+and paste is still Ctrl + u---
+
+
+Escape + r  == Find and Replace 
+
+Ctrl + w = Search   
+
+Ctrl + o = Save or append 
+Ctrl + t = files category 
+---------------------------
+
+Ctrl + r == Open File 
+escape + f = add new buffer ( for using more than 1 files at the same time )
+---- you can just press "enter key" to just open a new buffer 
+escape + , = left buffer switch 
+escape + . = right buffer switch 
+
+ctrl + z - suspension ( to work on COMMAND LINE AGAIN)
+fg = returns back 
+
+escape + u = undo
+
+
 ### Emacs
 Emacs was created with an eye towards "editor macros" (hence the name), and it
 remains strong with many macros available to tie emacs in to all sorts of

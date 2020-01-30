@@ -40,26 +40,35 @@ to open a new item or create a new writing type - " nano + path and file name yo
 
  
 Ctrl + a ( beginning on line )  OR Ctrl + e ( End of line )
+
 escape + space bar ( moves BACK by word)
+
 Ctrl + space bar   ( moves FORWARD by word )
+
 escape + shift + m = mouse enable 
+
 escape + i = ( auto indentation ) 
  
 ctrl + shift + underscore (-) = ( jump to line ) 
 --OR ctrl + /
+
 if you enter : 2, 10   = ( line 2, columen 10)
 
 Ctrl + m + c =  current line & column position 
 
 
 Ctrl + home = top of file
+
 Ctrl + end = bottom of file 
 
 Ctrl + k =  Cut 
+
 Ctrl + u = paste 
 
 --Ctrl + 6 = copy ( Mark Set)
+
 then highlight what you want to copy 
+
 then escape + 6 == to COPY
 
 and paste is still Ctrl + u---
@@ -69,17 +78,24 @@ Escape + r  == Find and Replace
 
 Ctrl + w = Search   
 
-Ctrl + o = Save or append 
+Ctrl + o = Save AS or append 
+
 Ctrl + t = files category 
+
 ---------------------------
 
 Ctrl + r == Open File 
+
 escape + f = add new buffer ( for using more than 1 files at the same time )
+
 ---- you can just press "enter key" to just open a new buffer 
+
 escape + , = left buffer switch 
+
 escape + . = right buffer switch 
 
 ctrl + z - suspension ( to work on COMMAND LINE AGAIN)
+
 fg = returns back 
 
 escape + u = undo
@@ -115,6 +131,229 @@ install it just like the other packages. Check for it by trying to run it:
 If `vi` does not work, then install it:
 
 `apt-get install vi`
+
+------------------------------------------------------------------------
+shortcuts 
+
+ shift + zz =write + exits file 
+ 
+:wq then enter  = write + exit file
+
+:q! OR :q then enter =  exits file 
+
+:w + name of new file == Save AS different name.....
+
+----------------------------------------------
+
+COMMAND MODE 
+
+k = move up 
+
+j = move down 
+
+l = move right 
+
+h = move left
+
+space bar = move right 
+
+backspace = right 
+
+- = start of line 
+
+[Number + movement ]
+
+Ex:  10 + l = move right by 10
+
+
+i = Inster MODE
+
+escape = leave insert mode 
+
+-------------------------------------------------
+moving by words / sentences / paragraphs 
+
+w = forward a word 
+
+b = backward a word 
+
+e = forward to end of current word 
+
+( = back a sentence 
+
+) = forward a sentence 
+
+} = forward a paragraph 
+
+{ = backward a paragraph 
+
+-------------------------------------------------
+moving by lines 
+
+^ = beginning of line
+
+$ = end of line 
+
+1G = first line of file  ( 1 + Shift + g )
+
+     #G any line you choose 
+     
+G = lst line of fie  ( Shfit + g )
+
+% = jump between brackets []  or ()
+
+-------------------------------------------------------
+
+PROMPT MODE 
+
+escape twice terminates command 
+
+:w = write without quitting  ( save as of DIFF FILE NAME )
+
+:vi = edit another file 
+
+:n = go to next file 
+
+:n! force into next file without saving 
+
+:N = go to previous file 
+
+:r = read file into the THIS ONE
+
+ctrl + g = line # and file #
+
+------------------------------------------
+scrolling 
+
+Ctrl + e = scroll down line 
+
+Ctrl + y = scroll up line
+
+Ctrl + d = scroll down half screen 
+
+Ctrl + u = scroll up half screen
+
+Ctrl + f = scroll down full screen
+
+Ctrl + b = scroll up Full screen 
+
+------------------------------------------------
+Insert Text 
+
+i = insert cursor 
+
+I = insert at beginning of lin e
+
+a = append after cursor 
+
+A = append at end of line 
+
+o = open a new line below 
+
+O = open a new line above
+
+escape = exit insert mode 
+
+---------------------------------------------
+Deleting text 
+
+x = delete character 
+
+dd = curent line 
+
+dw = current word 
+
+de = to end fo word 
+
+d^ = beginning of line 
+
+d$ = to end of line
+
+d + any command deltes certain line word area
+
+------------------------------------------------
+changing text 
+
+r = current character but in command mode 
+
+s = replace current character but in insert mode 
+
+cc = delets current line and goes into insert mode 
+
+cw = current word 
+
+c^ = change to beginning of line 
+
+c$ = change to end of line 
+
+C = change current area to end of line 
+
+---------------------------------------------------
+u = undo command ( if you repeat u continues to undo previous command )
+
+Ctrl + r = redos last change ( undo the u command )
+
+U =  undoes all changes to current line 
+
+. = repeats last change 
+
+
+-----------------------------------------------------
+
+Delete yank put 
+
+dd = delete line ( cut)
+
+yy = yank (copy ) line 
+
+yw = yank word 
+
+y( = 
+
+y) = 
+
+yd = yank line ?
+
+3yy = py three lines 
+
+p = put  below( paste) after cursor
+
+P = put above ( paste ) before cursor
+
+-------------------------------------------------------
+Searching 
+
+/ + text = search Forward  for text 
+
+? + text =  search Backward for text
+
+n = repeat previous search 
+
+N = repeat prevous search in opposite direction 
+
+/[.] =  search for anything with brackets 
+
+/^ = search for at beginning of line 
+
+/$ = search for at end of line 
+
+/se*m = search for any word with sm + any number of e
+
+---------------------------------------------------------------
+
+Search and REPLACE 
+
+:s/ old / new / replace old with new 
+
+:s/ old / new /g = replace every old with new on CURRENT LINE
+
+:%s/ old / new / = replaces FIRST old with new on every line 
+
+:%s/ gold / new /g = replace ALL gold with new on EVERY LINE 
+
+
+--------------------------------------------------------
+
 
 ## Basic Requirements
 Once you have all of your editors available on your Droplet, you can begin
@@ -166,7 +405,7 @@ ServerName www.unix.org
 times does the word "Vishta" show up in the short story? How many times does the
 word "Kuno" show up in the short story? Add your word frequency counts to the `wordFrequency.json`
 in each of the working directories. (Be sure to count the unique `the_machine_stops.txt` file in 
-EACH directory -- they are not the same!)
+EACH directory -- they are not the same!) 2 , 
 
 * Create a file in the root of this repository (the same level as this `README.md` file) called 
 `favorite.md` and write a statement about which editor you prefer. Be sure to discuss what you like

@@ -1,5 +1,5 @@
-Eric Raymond’s 17 Unix Rules[edit]
-In his book The Art of Unix Programming that was first published in 2003,[11] Eric S. Raymond, an American programmer and open source advocate, summarizes the Unix philosophy as KISS Principle of "Keep it Simple, Stupid."[12] He provides a series of design rules:[13]
+Eric Raymond’s 17 Unix Rules edit
+In his book The Art of Unix Programming that was first published in 2003,11 Eric S. Raymond, an American programmer and open source advocate, summarizes the Unix philosophy as KISS Principle of "Keep it Simple, Stupid."12 He provides a series of design rules:13
 
 Rule of Modularity
 Developers should build a program out of simple parts connected by well defined interfaces, so problems are local, and parts of the program can be replaced in future versions to support new features. This rule aims to save time on debugging code that is complex, long, and unreadable.
@@ -26,7 +26,7 @@ Rule of Robustness
 Developers should design robust programs by designing for transparency and discoverability, because code that is easy to understand is easier to stress test for unexpected conditions that may not be foreseeable in complex programs. This rule aims to help developers build robust, reliable products.
 
 Rule of Representation
-Developers should choose to make data more complicated rather than the procedural logic of the program when faced with the choice, because it is easier for humans to understand complex data compared with complex logic. This rule aims to make programs more readable for any developer working on the project, which allows the program to be maintained.[14]
+Developers should choose to make data more complicated rather than the procedural logic of the program when faced with the choice, because it is easier for humans to understand complex data compared with complex logic. This rule aims to make programs more readable for any developer working on the project, which allows the program to be maintained.14
 
 Rule of Least Surprise
 Developers should design programs that build on top of the potential users' expected knowledge; for example, ‘+’ should always mean addition in a calculator program. This rule aims to encourage developers to build intuitive products that are easy to use.
@@ -35,7 +35,7 @@ Rule of Silence
 Developers should design programs so that they do not print unnecessary output. This rule aims to allow other programs and developers to pick out the information they need from a program's output without having to parse verbosity.
 
 Rule of Repair
-Developers should design programs that fail in a manner that is easy to localize and diagnose or in other words “fail noisily”. This rule aims to prevent incorrect output from a program from becoming an input and corrupting the output of other code undetected.[23]
+Developers should design programs that fail in a manner that is easy to localize and diagnose or in other words “fail noisily”. This rule aims to prevent incorrect output from a program from becoming an input and corrupting the output of other code undetected.23
 
 Rule of Economy
 Developers should value developer time over machine time, because machine cycles today are relatively inexpensive compared to prices in the 1970s. This rule aims to reduce development costs of projects.
@@ -47,7 +47,7 @@ Rule of Optimization
 Developers should prototype software before polishing it. This rule aims to prevent developers from spending too much time for marginal gains.
 
 Rule of Diversity
-Developers should design their programs to be flexible and open. This rule aims to make programs flexible, allowing them to be used in other ways than their developers intended.[39]
+Developers should design their programs to be flexible and open. This rule aims to make programs flexible, allowing them to be used in other ways than their developers intended.39
 
 Rule of Extensibility
 Developers should design for the future by making their protocols extensible, allowing for easy plugins without modification to the program's architecture by other developers, noting the version of the program, and more. This rule aims to extend the lifespan and enhance the utility of the code the developer writes.

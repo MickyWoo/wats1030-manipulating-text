@@ -4,11 +4,11 @@ Listen 80
 # Listen for virtual host requests on all IP addresses
 NameVirtualHost *:80
 
-<VirtualHost *:80>
+VirtualHost *:80>
 DocumentRoot /www/example1
 ServerName www.example.com
 
-# Other directives here
+#Other directives here
 
 </VirtualHost>
 
@@ -18,16 +18,4 @@ ServerName www.example.org
 
 # Other directives here
 
-</VirtualHost>
-
-<VirtualHost *:80>
-DocumentRoot /www/unix
-ServerName www.unix.com
-</VirtualHost>
-
-# Other directives here
-
-<VirtualHost *:80>
-DocumentRoot /www/linux
-ServerName www.unix.org
 </VirtualHost>

@@ -120,9 +120,10 @@ If `vi` does not work, then install it:
 ------------------------------------------------------------------------
 shortcuts 
 
--- shift + zz =write + exits file 
+ shift + zz =write + exits file 
 :wq then enter  = write + exit file
 :q! OR :q then enter =  exits file 
+:w + name of new file == Save AS different name.....
 
 COMMAND MODE 
 k = move up 

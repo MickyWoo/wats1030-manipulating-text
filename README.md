@@ -78,6 +78,8 @@ Escape + r  == Find and Replace
 
 Ctrl + w = Search   
 
+--- *note in search you can do Ctrl + r and do search and replace .....
+
 Ctrl + o = Save AS or append 
 
 Ctrl + t = files category 

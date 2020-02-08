@@ -117,6 +117,57 @@ If `emacs` is not there, you can install it by running:
 
 `apt-get install emacs`
 
+
+For reference, here is the list of shortcuts I’ll be introducing in this tutorial:
+
+    C-h C-h : help
+    C-g : quit
+    C-x b : switch buffers
+    C-x right : right-cycle through buffers
+    C-x left : left-cycle through buffers
+
+    C-x k : kill buffer
+
+    C-x 0 : close the active window
+    C-x 1 : close all windows except the active window
+    C-x 2 : split the active window vertically into two horizontal windows
+    C-x 3 : split the active window horizontally into two vertical windows
+
+    C-x o : change active window to next window
+
+    C-x C-f : open file
+    C-x C-s : save file
+
+    C-x C-w : save file as
+
+    C-space : set region mark
+    C-w : kill region
+    C-k : kill region between point and end of current line
+    M-w : kill region without deleting
+    C-y : yank region from kill ring
+    M-y : move to previous item in the kill ring
+
+    M-Y : move to next item in the kill ring
+
+    C-_ : undo
+    C-s : search forwards
+    C-r : search backwards
+    M-% : query replace (‘space’ to replace, ‘n’ to skip, ‘!’ to replace all)
+
+    M-q : wrap text
+
+    C-left : move one word left
+    C-right : move one word right
+    C-up : move one paragraph up
+    C-down : move one paragraph down
+    home : move to the beginning of the line
+    end : move to the end of the line
+    page up : move up a page
+    page down : move down a page
+    M- : move to end of buffer
+
+
+
 ### Vi
 Vi is a "mode-based" editor, meaning that it starts looking at files in "view"
 mode and you must switch into "interactive" mode to edit them. Vi is also designed
